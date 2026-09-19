@@ -1,0 +1,25 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+.terraform.lock.hcl
+
+# Sensitive/local files
+.env
+.env.*
+*.pem
+*.key
+*.secret
+
+# Ansible
+*.retry
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+*.swp
