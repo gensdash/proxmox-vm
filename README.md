@@ -23,7 +23,7 @@ The provider documentation notes that snippet uploads use SSH access to the Prox
 
 ```terraform
 module "application_vm" {
-  source = "../../modules/proxmox-vm"
+  source = "github.com/gensdash/proxmox-vm.git?ref=v1.0.0"
 
   vm_name   = "application-vm"
   hostname  = "application-coding"
